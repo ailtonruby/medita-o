@@ -1,0 +1,125 @@
+body {
+  background-color: white;
+  color: black;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+header .conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: yellow;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 16px;
+}
+
+section .conteiner img {
+  margin: 20px;
+  width: 450px;
+}
+
+.conteiner li {
+  display: inline-block;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 5px;
+  font-family: "Libre Baskerville", serif;
+}
+
+span {
+  color: yellow
+}
+
+p {
+  line-height: 20px;
+  max-width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  color: white;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input, button {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  border: 2px solid black;
+}
+
+input:hover {
+  border: 2px solid yellow;
+  cursor: pointer;
+}
+
+form button {
+  height: 50px;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+}
+
+form button:hover {
+  background-color: yellow;
+  border: 2px solid yellow;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 16px 0;
+}
